@@ -430,6 +430,8 @@
     .sociallink {
         width: 100%;
         line-height: 29px;
+        margin-top: 50px;
+        margin-left: 10px;
     }
     
     .socialtext {
@@ -459,4 +461,93 @@
         letter-spacing: 0.3px;
         text-align: center;
         color: #445162;
+    }
+    
+    .social-flex {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 25px;
+    }
+    
+    .social-link {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        border: 2px solid black;
+        border-radius: 5px;
+        align-items: center;
+        text-decoration: none;
+        justify-content: center;
+        margin-left: 10px;
+        color: white;
+    }
+    
+    .fab {
+        font-size: 30px;
+    }
+    
+    .insta {
+        background-color: red;
+        border: 2px solid white;
+    }
+    
+    .insta:hover {
+        background-color: white;
+        color: red;
+        border: 2px solid brown;
+    }
+    
+    .tw {
+        background-color: blue;
+        border: 2px solid white;
+    }
+    
+    .tw:hover {
+        background-color: white;
+        color: blue;
+        border: 2px solid brown;
+    }
+    
+    .face {
+        background-color: darkblue;
+        border: 2px solid white;
+    }
+    
+    .face:hover {
+        background-color: white;
+        color: darkblue;
+        border: 2px solid brown;
+    }
+    
+    .face {
+        background-color: green;
+        border: 2px solid white;
+    }
+    
+    .face:hover {
+        background-color: white;
+        color: green;
+        border: 2px solid brown;
+    }
+    
+    .tel {
+        background-color: rgb(74, 108, 202);
+        border: 2px solid white;
+    }
+    
+    .tel:hover {
+        background-color: white;
+        color: rgb(74, 108, 202);
+        border: 2px solid brown;
+    }
+    
+    .what {
+        background-color: darkgreen;
+        border: 2px solid white;
+    }
+    
+    .what:hover {
+        background-color: white;
+        color: darkgreen;
+        border: 2px solid brown;
     }
